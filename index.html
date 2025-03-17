@@ -4,11 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>Poem Generator</title>
+    <title>AI Poem Generator</title>
   </head>
   <body>
-    <h1>Welcome to the AI Poem Generator</h1>
-  </body>
+    <header>
+      <h1>Welcome to the AI Poem Generator</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Instructions</h2>
+        <p>Enter a word or a phrase and the AI will generate a poem for you.</p>
+      </section>
+      <form>
+        <input
+          type="text"
+          placeholder="Write a topic you like to generate a poem"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
 
-  <script src="src/index.js"></script>
+      <div id="poem">The poem will appear here</div>
+    </main>
+    <footer>
+      This project was coded by
+      <a href="https://github.com/vaneyepes" target="_blank"> Vanesa Yepes</a>,
+      is
+      <a href="https://github.com/vaneyepes/poem-generator" target="_blank"
+        >open-sourced on GitHub</a
+      >
+      and
+      <a href="https://stunning-macaron-c66d8a.netlify.app" target="_blank"
+        >hosted on Netlify</a
+      >
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
 </html>
