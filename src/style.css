@@ -30,6 +30,11 @@ form {
   margin-bottom: 30px;
 }
 
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
 .instructions {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0.5);
@@ -59,6 +64,10 @@ form {
   border-left: 3px solid #885df1;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-bottom: 30px;
+}
+
+.hidden {
+  display: none;
 }
 footer {
   text-align: center;
