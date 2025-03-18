@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
@@ -18,7 +22,7 @@
             Enter a word or a phrase and the AI will generate a poem for you.
           </p>
         </section>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Write a topic you like to generate a poem"
@@ -30,7 +34,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="poem">The poem will appear here</div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This project was coded by
