@@ -1,4 +1,6 @@
-# Poem Generator
+![App Screenshot](screenshotPoem.png)
+
+# Poem Generator 
 A playful project to generate short poems from user input.
 - Our AI robot is in love with the microwave, help him to write a poem about it
 - Write a topic you like and click on the submit button
@@ -14,5 +16,5 @@ A playful project to generate short poems from user input.
 Clone repo and run the Python script in your environment.
 - Preview: `https://stunning-macaron-c66d8a.netlify.app`
 
-![App Screenshot](screenshotPoem.png)
+
 
