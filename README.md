@@ -13,3 +13,6 @@ A playful project to generate short poems from user input.
 ## Run
 Clone repo and run the Python script in your environment.
 - Preview: `https://stunning-macaron-c66d8a.netlify.app`
+
+![App Screenshot](screenshotPoem.png)
+
